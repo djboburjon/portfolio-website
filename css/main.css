@@ -408,6 +408,13 @@
     padding: 0 1.87rem;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1144px) {
+    /* Main section */
+    .main-banner {
+        width: max-content;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     /* Main section */
     .main-section__image {
@@ -526,6 +533,11 @@
         flex-basis: 100%;
         margin-right: 0;
         margin-bottom: 20px;
+    }
+
+    /* Clients */
+    .client-item__info {
+        padding-left: 0;
     }
 
     /* Portfolio */

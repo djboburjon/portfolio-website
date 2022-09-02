@@ -322,6 +322,12 @@ button {
     color: white;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1144px) {
+    .footer {
+        width: max-content;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     .container {
         width: 90%;
